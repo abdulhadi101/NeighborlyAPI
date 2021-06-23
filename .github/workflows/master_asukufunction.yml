@@ -40,4 +40,4 @@ jobs:
         app-name: 'asukufunction'
         slot-name: 'production'
         package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_859aa750da244621952fcf1ec54c7422 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e6a643646b6145e9be184c2098d171eb }}
