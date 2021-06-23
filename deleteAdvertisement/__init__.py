@@ -9,7 +9,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     if id:
         try:
-            url = "mongodb://asukucosmos:UalfAgfU50qAdoywHENNddQNziXLBt4Ekue78EW9bAZpjV4DKJYgYl5CEgCMOM1zOMcnHKhnxYNBJx6GYwBH0g==@asukucosmos.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@asukucosmos@"  # TODO: Update with appropriate MongoDB connection information
+            url = "mongodb://asukucosmos:cfemeuq6GFdyojYKuhpr8x6BJ9xmCHQ48vZbFcfAU6nd3xxyIUYsmht6tIKkdYr6iwoTSzUboeMz6dhbMfFGRg==@asukucosmos.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@asukucosmos@"  # TODO: Update with appropriate MongoDB connection information
             client = pymongo.MongoClient(url)
             database = client['asukudb']
             collection = database['advertisements']
